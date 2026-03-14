@@ -1,0 +1,25 @@
+# Environment
+.env
+.env.local
+.env.production
+*.env
+
+# Node
+node_modules/
+dist/
+.next/
+out/
+
+# Foundry
+contracts/broadcast/
+contracts/cache/
+contracts/out/
+contracts/lib/
+
+# Reports (generated content)
+reports/*.md
+
+# Misc
+.DS_Store
+*.log
+.vercel
